@@ -1,6 +1,6 @@
 That's my first project, so Welcome!
 
-## It is built with
+## It is built with:
 
 * HTML - Text formatting
 * CSS - Styling
