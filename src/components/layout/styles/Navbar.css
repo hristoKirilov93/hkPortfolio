@@ -1,0 +1,68 @@
+.navbar {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, #000 0%, rgba(0, 212, 255, 0) 100%);
+  font-weight: bold;
+}
+
+.nav-link {
+  line-height: 1;
+  color: white !important;
+  background-color: rgba(0, 0, 0, .6);
+  box-shadow: 0px 0px 1px 1px #fff;
+}
+
+.nav-link:hover {
+  color: black !important;
+  background-color: white;
+  box-shadow: inset 0px 0px 3px 1px #000;
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none !important;
+}
+
+.navbar-brand:hover {
+  color: #ffdeb5 !important;
+  text-shadow: -1px 1px 1px #000;
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+/* @media (min-width: 320px) and (max-width: 480px) {
+  p {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+} */
+
+.dropdown-toggle {
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+}
+
+.dropdown-item {
+  color: white;
+  background-color: black;
+  box-shadow: 0px 0px 0px 1px #fff;
+  font-weight: bold;
+}
+
+.dropdown-item:focus {
+  background-color: white;
+}
+
+ul {
+  list-style: none !important;
+}

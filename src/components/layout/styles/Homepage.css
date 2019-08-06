@@ -1,0 +1,95 @@
+.homepageBody {
+  background: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .5))), url('me.jpg');
+  background-size: cover;
+  font-family: 'Comfortaa', cursive !important;
+  background-color: #d0d0d0;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.homeContainer {
+  max-width: 740px;
+  letter-spacing: .5px;
+}
+
+.homeContainer h2 {
+  line-height: 1;
+  color: #444;
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, -2px 1px 1px #CCCCCC, -1px 2px 1px #EEEEEE, -2.5px 2px 1px #CCCCCC, -2px 3px 1px #EEEEEE, -3px 2px 1px #CCCCCC, -2px 2px 1px #EEEEEE, -4px 3px 1px #CCCCCC, -4px 3px 1px #EEEEEE, -4px 4px 1px #CCCCCC, -5px 5px 1px #EEEEEE, -5px 5px 1px #CCCCCC;
+  background-color: #fff;
+  box-shadow: 0px 0px 0px 6px #fff, inset 0px 0px 2px 2px #000;
+}
+
+.homeContainer p {
+  color: #fff;
+  background-color: rgba(79, 79, 79, 0.5);
+  text-shadow: -1px 1px 1px #000;
+  box-shadow: 0px 0px 0px 6px #fff, inset 0px 0px 16px 8px #717171;
+  text-align: justify;
+}
+
+.homeContainer p.last {
+  text-align: right;
+  margin-left: 130px;
+  margin-right: 130px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.homeContainer a {
+  color: darkturquoise;
+  font-weight: bold;
+  text-shadow: -1px 1px 0px #000;
+}
+
+.homeContainer a:hover {
+  text-decoration: none;
+  color: #CCC;
+}
+
+.fake {
+  color: #ffca28;
+  padding: 2px;
+  border-radius: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0px;
+  font-weight: bold;
+}
+
+.taxi {
+  background-color: #000;
+  color: #ffca28;
+  padding: 2px;
+  border-radius: 2px;
+  border: 2px solid #ffca28;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  p {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .homepageBody {
+    height: 100%;
+  }
+  .homeContainer {
+    width: 90%;
+  }
+  .homeContainer p {
+    box-shadow: 0px 0px 0px 6px #fff, inset 0px 0px 15px 5px #000;
+  }
+  .homeContainer p.last {
+    text-align: right;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}

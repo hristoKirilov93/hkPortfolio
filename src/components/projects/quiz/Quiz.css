@@ -1,0 +1,122 @@
+.quizBody {
+  background: url('quiz.jpg');
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: 'Comfortaa', cursive;
+  font-weight: bold;
+}
+
+.quizBody h2 {
+  -webkit-box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+  box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+}
+
+.quizBody h4 {
+  box-shadow: 0px 4px 4px 0px rgb(0, 0, 0), inset 0px -30px 25px -12px rgb(0, 0, 0);
+}
+
+.quizBody h5 {
+  text-shadow: -.5px .5px .5px rgb(0, 0, 0);
+  padding-right: 20px;
+}
+
+#questions {
+  -webkit-box-shadow: 0px 0px 5px 3px #A0A0A0, inset 0px 10px 27px -8px #141414, inset 0px -10px 27px -8px #A31925, 5px 5px 15px 5px rgba(255, 0, 0, 0);
+  box-shadow: 0px 0px 5px 3px rgb(0, 0, 0), inset 0px 10px 27px -8px #000000, inset 0px -10px 27px -8px rgb(0, 0, 0), 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+#questions p {
+  box-shadow: -2px 2px 3px 1px #000;
+}
+
+.form-check {
+  font-size: 20px;
+  background: #ee9ca7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(255, 221, 225, .7), rgba(238, 156, 167, .3), rgba(238, 156, 167, 0));
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(255, 221, 225, .7), rgba(238, 156, 167, .3), rgba(238, 156, 167, 0));
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 10px;
+  padding-bottom: 40px !important;
+  box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.form-check label {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.form-check .float-left {
+  margin-left: -20px;
+  box-shadow: 2px -2px 1px 1px #000;
+}
+
+.form-check .float-right {
+  margin-left: -20px;
+  box-shadow: -2px -2px 1px 1px #000;
+}
+
+.form-check .float-left:hover {
+  background-color: rgb(39, 39, 39) !important;
+  color: white;
+  margin-top: 2px;
+}
+
+.form-check .float-right:hover {
+  background-color: rgb(39, 39, 39) !important;
+  color: white;
+  margin-top: 2px;
+}
+
+#button {
+  box-shadow: -2px 2px 3px 1px #000;
+  margin: 0px !important;
+  z-index: 1;
+}
+
+#button:hover {
+  background-color: rgb(128, 19, 28) !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .quizBody {
+    background-position: center;
+  }
+  .quizBody h2 {
+    font-size: 20px !important;
+  }
+  .form-check h4 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 16px;
+    text-shadow: -.5px .5px 0px rgba(255, 255, 255, .5);
+  }
+  .form-check h5 {
+    font-size: 17px;
+  }
+  .form-check {
+    font-size: 16px;
+  }
+  .form-check label {
+    text-shadow: -.5px .5px 0px #000;
+  }
+  .form-check .float-left {
+    margin-top: 6px;
+  }
+  .form-check .float-right {
+    margin-top: 6px;
+  }
+}
+
+#answered {
+  animation: div 4s cubic-bezier(.3, .1, 0, 0);
+}
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 0px;
+}
