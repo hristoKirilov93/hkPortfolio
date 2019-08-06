@@ -1,14 +1,13 @@
 That's my first project, so Welcome!
 
-## If you want to start it on local server do this
+## Built with
 
-Run "npx create-react-app portfolio" in your console and replace the files 
-
-## Built With
-
-* [HTML]
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* HTML - Text formatting
+* CSS - Styling
+* [Javascript](https://www.javascript.com/) - Functionality
+* [ReactJS](https://reactjs.org/) - JavaScript library
+* [Bootstrap](https://getbootstrap.com/) - Front-end library
+* [Firebase](https://firebase.google.com/) - Used for hosting and real-time database
 
 ## Author
 
